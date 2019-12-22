@@ -1,15 +1,14 @@
 body, html {
-    height: 100%;
+  height: 100%;
 }
 
 /* The hero image */
+
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/imgs/salon.jpg");
-
   /* Set a specific height */
   height: 50%;
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -18,6 +17,7 @@ body, html {
 }
 
 /* Place text in the middle of the image */
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -28,15 +28,79 @@ body, html {
 }
 
 .section1 {
-    padding-top: 10px;
-    
-    height: auto;
-    background-image: url("/assets/imgs/scissors.PNG");
+  padding-top: 10px;
+  height: auto;
+  background-image: url("/assets/imgs/scissors.PNG");
 }
 
 .section2 {
-  background-image: url("/assets/imgs/sign.jpg");
+  background-image: url("/assets/imgs/salon2.jpg");
   height: 50%;
+  width: auto;
   text-align: center;
   color: black;
+  padding-top: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 59px 0px 118px 0px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.discount {
+ text-align: center;
+ color: white;
+ padding-left: 180px;
+ padding-right: 180px;
+}
+
+.section4back {
+  background-color: lightgrey;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: auto;
+}
+
+#cardimg {
+  height: 120px;
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.w3-quarter img {
+  margin-bottom: -6px; cursor: pointer;
+}
+.w3-quarter img:hover {
+  opacity: 0.6; transition: 0.3s;
+}
+
+#imgsec3 {
+  max-width: 100%;
+  border: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 280px;
+  width: 460px;
+  
+}
+
+.img1 {
+  height: 120px;
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.divider {
+  padding: 120px;
 }
