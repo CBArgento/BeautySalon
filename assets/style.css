@@ -56,6 +56,10 @@ body, html {
  padding-right: 180px;
 }
 
+.button {
+  position: relative;
+}
+
 .section4back {
   background-color: lightgrey;
   padding-top: 80px;
