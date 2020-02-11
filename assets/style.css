@@ -30,11 +30,11 @@ body, html {
 .section1 {
   padding-top: 10px;
   height: auto;
-  background-image: url("/assets/imgs/scissors.PNG");
+  background-image: url("assets/imgs/scissors.PNG");
 }
 
 .section2 {
-  background-image: url("/assets/imgs/salon2.jpg");
+  background-image: url("assets/imgs/salon2.jpg");
   height: 50%;
   width: auto;
   text-align: center;
