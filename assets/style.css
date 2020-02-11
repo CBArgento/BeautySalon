@@ -34,7 +34,7 @@ body, html {
 }
 
 .section2 {
-  
+  <img class="mypic" src="assets/salon2.jpg">
   height: 50%;
   width: auto;
   text-align: center;
