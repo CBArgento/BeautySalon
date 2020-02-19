@@ -6,7 +6,7 @@ body, html {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/CBArgento/BeautySalon/blob/master/assets/imgs/salon.jpg?raw=true");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/imgs/salon.jpg");
   /* Set a specific height */
   height: 50%;
   /* Position and center the image to scale nicely on all screens */
@@ -34,7 +34,7 @@ body, html {
 }
 
 .section2 {
-  <img class="mypic" src="assets/salon2.jpg">
+  background-image: url("assets/imgs/salon2.jpg");
   height: 50%;
   width: auto;
   text-align: center;
